@@ -1,6 +1,5 @@
 #include "staticObstacleLocation.h"
 #include "CapturePicture.h"
-<<<<<<< HEAD
 #include <conio.h>
 #define ESC	0x1b		// scan code for ESC character
 #define GetOnePicture	0x6f//o
@@ -14,33 +13,12 @@ int main()
 	staticObstacleLocation laboratory;
 	CapturePicture capturepicture;
 	string str1,str2;
-=======
-
-int main()
-{
-	CapturePicture capturepicture;
-	capturepicture.InitNetSDK();
-	string str1="D:\\video\\108.bmp";
-	capturepicture.pFileName=str1.data();
-	capturepicture.Login("192.168.1.108");
-	capturepicture.OnRadioSnaptime();
-	capturepicture.OnBtnStartsnap();
-	_sleep(0.3*1000);
-	string str2="D:\\video\\109.bmp";
-	capturepicture.pFileName=str2.data();
-	capturepicture.Login("192.168.1.109");
-	capturepicture.OnRadioSnaptime();
-	capturepicture.OnBtnStartsnap();
-	_sleep(0.3*1000);
-
->>>>>>> ee624059fa4d4e51d6412d2f829bd2779430e51a
 	string picture108Path = "..\\images108";
 	string resultsPath = "..\\results";
 	string picture109Path = "..\\images109";
 	string picture108 = "108.bmp";
 	string picture109 = "109.bmp";
-<<<<<<< HEAD
-	cout<<"           === ORDER HELP ===        "<<endl;
+	cout<<"        === ORDER HELP ===      "<<endl;
 	cout<<"o    - Catching A Pair Pictures Named <108.bmp><109.bmp>!"<<endl;
 	cout<<"g    - Catching A Pair Pictures Named Your Enter!"<<endl;
 	cout<<"s    - Test The Single Pair Pictures Named <108.bmp><109.bmp>!"<<endl;
@@ -105,10 +83,5 @@ int main()
 		cout<<endl;
 	}while(keypress!=ESC );
 
-=======
-	staticObstacleLocation laboratory;
-	laboratory.singleTest(picture108.data(),picture109.data());
-	//laboratory.batchTesting(picture108Path,picture109Path,resultsPath);
->>>>>>> ee624059fa4d4e51d6412d2f829bd2779430e51a
 	return 0;
 }
