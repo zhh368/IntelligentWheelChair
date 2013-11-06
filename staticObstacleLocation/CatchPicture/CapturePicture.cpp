@@ -1,6 +1,11 @@
 #include "CapturePicture.h"
+<<<<<<< HEAD
+#include "dhnetsdk.h"
+#include "DhDecode.h"
+=======
 
 
+>>>>>>> ee624059fa4d4e51d6412d2f829bd2779430e51a
 #include <iostream>
 #include <string>
 
@@ -418,4 +423,26 @@ void CapturePicture::OnOnePicture(LONG ILoginID, BYTE *pBuf, UINT RevLen, UINT E
 		fclose( stream );
 	}
 	/*Veirfy image encode type. If it is an I frame of mpeg4,then call I frame to decode to BMP to display.*/
+<<<<<<< HEAD
 }
+
+void CapturePicture::Logout() 
+{
+	// TODO: Add your control notification handler code here
+	if(0 != m_LoginID)
+	{
+		BOOL bSuccess = CLIENT_Logout(m_LoginID);
+		if(bSuccess)
+		{
+			m_LoginID = 0;
+			m_bJSON = FALSE;
+		}
+		else
+		{
+			cout<<"Logout failed!";
+		}
+	}
+}
+=======
+}
+>>>>>>> ee624059fa4d4e51d6412d2f829bd2779430e51a

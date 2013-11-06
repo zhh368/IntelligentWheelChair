@@ -1,7 +1,10 @@
 #pragma once
 #include "dhnetsdk.h"
 #include "dhconfigsdk.h"
+<<<<<<< HEAD
+=======
 #include "DhDecode.h"
+>>>>>>> ee624059fa4d4e51d6412d2f829bd2779430e51a
 #include <string>
 typedef struct DH_SNAP_ATTR_EN_EX
 {
@@ -25,6 +28,10 @@ public:
 	void OnRadioSnaptime(void);
 	void OnBtnStartsnap(void);
 	void InitNetSDK();
+<<<<<<< HEAD
+	void Logout();
+=======
+>>>>>>> ee624059fa4d4e51d6412d2f829bd2779430e51a
 	void OnOnePicture(LONG ILoginID, BYTE *pBuf, UINT RevLen, UINT EncodeType, UINT CmdSerial);
 	int                    m_nChannelCount;
 	int                    m_ctlChannel;

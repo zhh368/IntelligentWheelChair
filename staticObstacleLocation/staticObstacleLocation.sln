@@ -1,6 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "staticObstacleLocation", "staticObstacleLocation\staticObstacleLocation.vcxproj", "{BF7F3915-DC8D-4714-8362-AFFDBCA18E17}"
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "staticObstacleLocation", "staticObstacleLocation\staticObstacleLocation.vcxproj", "{888817FE-0573-44F5-9528-C48BC08CD785}"
 EndProject
 Global
@@ -9,6 +10,10 @@ Global
 		Release|Win32 = Release|Win32
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BF7F3915-DC8D-4714-8362-AFFDBCA18E17}.Debug|Win32.ActiveCfg = Debug|Win32
+		{BF7F3915-DC8D-4714-8362-AFFDBCA18E17}.Debug|Win32.Build.0 = Debug|Win32
+		{BF7F3915-DC8D-4714-8362-AFFDBCA18E17}.Release|Win32.ActiveCfg = Release|Win32
+		{BF7F3915-DC8D-4714-8362-AFFDBCA18E17}.Release|Win32.Build.0 = Release|Win32
 		{888817FE-0573-44F5-9528-C48BC08CD785}.Debug|Win32.ActiveCfg = Debug|Win32
 		{888817FE-0573-44F5-9528-C48BC08CD785}.Debug|Win32.Build.0 = Debug|Win32
 		{888817FE-0573-44F5-9528-C48BC08CD785}.Release|Win32.ActiveCfg = Release|Win32

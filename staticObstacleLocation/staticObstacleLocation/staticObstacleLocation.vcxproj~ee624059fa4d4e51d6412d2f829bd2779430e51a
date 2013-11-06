@@ -10,17 +10,8 @@
       <Platform>Win32</Platform>
     </ProjectConfiguration>
   </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="..\CatchPicture\CapturePicture.h" />
-    <ClInclude Include="staticObstacleLocation.h" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClCompile Include="..\CatchPicture\CapturePicture.cpp" />
-    <ClCompile Include="mainFile.cpp" />
-    <ClCompile Include="staticObstacleLocation.cpp" />
-  </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{BF7F3915-DC8D-4714-8362-AFFDBCA18E17}</ProjectGuid>
+    <ProjectGuid>{888817FE-0573-44F5-9528-C48BC08CD785}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
     <RootNamespace>staticObstacleLocation</RootNamespace>
   </PropertyGroup>
@@ -65,7 +56,7 @@
     <Link>
       <SubSystem>Console</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
-      <AdditionalDependencies>dhconfigsdk.lib;DhDecode.lib;dhnetsdk.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>dhconfigsdk.lib;dhnetsdk.lib;DhDecode.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
@@ -85,6 +76,15 @@
       <OptimizeReferences>true</OptimizeReferences>
     </Link>
   </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="..\CatchPicture\CapturePicture.h" />
+    <ClInclude Include="staticObstacleLocation.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\CatchPicture\CapturePicture.cpp" />
+    <ClCompile Include="mainFile.cpp" />
+    <ClCompile Include="staticObstacleLocation.cpp" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>

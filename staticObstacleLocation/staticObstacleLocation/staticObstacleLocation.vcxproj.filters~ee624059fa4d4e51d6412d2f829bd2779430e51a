@@ -23,10 +23,10 @@
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="mainFile.cpp">
+    <ClCompile Include="staticObstacleLocation.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="staticObstacleLocation.cpp">
+    <ClCompile Include="mainFile.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
     <ClCompile Include="..\CatchPicture\CapturePicture.cpp">
